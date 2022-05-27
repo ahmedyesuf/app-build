@@ -100,8 +100,8 @@ module "s3_bucket" {
 }
 
 module "server" {
-  source   = "app.terraform.io/example-org-580a9f/server/aws"
-  version  = "0.0.3"
+source  = "app.terraform.io/example-org-425fb4/server/aws"
+  version = "0.0.1"
   for_each = local.servers
   # server_os              = each.value.server_os
   ami                    = var.ami

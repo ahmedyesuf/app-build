@@ -1,5 +1,5 @@
 ami                         = "ami-00482f016b2410dc8"
-subnet_id                   = "subnet-09b70a7617216fb52"
+subnet_id                   = "subnet-0532877fbb6b84ece"
 identity                    = "awsaccount"
 region                      = "us-east-1"
-vpc_security_group_ids      = ["sg-078ac12de74859115"]
+vpc_security_group_ids      = ["sg-08c5c2f3bccda2b3a"]
